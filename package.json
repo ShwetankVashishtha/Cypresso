@@ -1,0 +1,22 @@
+{
+  "name": "Frappe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "cy:test": "npx cypress run",
+    "cy:regression": "npx cypress open --env tags='@Regression'",
+    "cy:smoke": "npx cypress open --env tags='@Smoke'"
+  },
+  "author": "Shwetank Vashishtha",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
+    "cypress": "^12.17.2",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@cypress/browserify-preprocessor": "latest"
+  }
+}

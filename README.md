@@ -1,1 +1,3 @@
 # Frappe
+
+npx cypress run
