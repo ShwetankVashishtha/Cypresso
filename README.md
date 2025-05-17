@@ -1,3 +1,3 @@
-# Frappe
+# Cypresso
 
 npx cypress run
